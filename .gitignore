@@ -1,0 +1,22 @@
+# Node
+node_modules/
+dist/
+.out/
+.next/
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+terraform.tfvars
+
+# Lamada
+function.zip
+
+# Logs
+npm-debug.log*
